@@ -9,11 +9,6 @@ public class Point {
     int x;
     int y;
 
-    void print() {
-        String pointToString = String.format("(%d, %d)", x, y);
-        System.out.println(pointToString);
-    }
-
     public String toString() {
         return String.format("(%d, %d)", x, y);
     }
